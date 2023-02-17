@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+}
+.imgchu{
+    width: 100%;
+    height: 300px;
+    background-image: url(anh/ANHCHU.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu {
+    height: 40px;
+    background: black;
+    text-align: center;
+}
+.nav > li {
+    display: inline-block;
+}
+.nav li {
+    position: relative;
+}
+.nav li a {
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    padding: 0 20px;
+    display: block;
+    font-variant: small-caps;
+    font-size: larger;
+}
+.nav .subnav {
+    display: none;
+    background: white;
+    position: absolute;
+    min-width: 180px;
+    list-style: none;
+}
+.nav li:hover .subnav {
+    display: block;
+}
+.nav .subnav li:hover a {
+    color: white;
+    background: gray;
+}
+.subnav li  a{
+    color: gray;
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+.column{
+    width: 25%;
+    float:left;
+    
+}
+.san-pham{
+    width: 300px;
+    height: 350px;
+    
+    border-radius: 10px;
+    box-shadow: 0,5px,gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    
+}
+.ten{
+    font-size: larger;
+    font-variant:small-caps;
+    color:blue;
+}
+.san-pham img{
+    max-width: 95%;
+}
+.gia{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+
+}
+.gia del{
+    color: gray;
+}
+footer {
+    clear: both;
+    width: 100%;
+    height: 70px;
+    background-color:black;
+    text-align: center;
+}
+footer p {
+    font-variant: small-caps;
+    color: white;
+}
+.footer p {
+   line-height: 70px;
+}
